@@ -8,12 +8,8 @@ How to set up this program?
 5. Connect the mbed board and the two servos to the power supply.
 6. Put the car on the first special marking.
 
-
-
-
-After setting up the car and pressing the reset button, the car will start to turn left continuously until it scan the left edge of the objects at the right hand side.
-The car will stop for a moment and then display the distance between the first scanned object and the car.
-After that, the car will start to turn left again until it scan the right edge of the objects at the left hand side.
-The car will stop again and then display the distance between the second scanned object and the car.
-The car will then calculate and display the angle between the car to object1 and the car to object2, and finally show the distance between the two objects.
-After many times of trial, the measured distance and the actual distance have an error about 20 %.
+What are the results?
+1. After setting up the car and pressing the reset button, the car will stop at the first special marking for about four seconds and then start to go ahead.
+2. The car will utilize the feedback signal transmitted by QTI sensors to determine whether it is going to turn left or right.
+3. When the car arrives the following special markings, it will display the place of the four special markings. Besides, at these four special markings, the car will always stop for about four seconds.
+4. After the car go back to its starting point, it will calculate and display the total distance of the circle track.
